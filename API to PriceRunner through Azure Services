@@ -1,0 +1,23 @@
+Product Matching:
+Each item in the inventory would have a unique identifier or a set of searchable attributes that can be used to match it with listings on a price comparison site or in email alerts.Scheduled Scans:
+
+Use Azure Functions, which are event-driven and can be scheduled, to run a daily job that checks the price of each item.
+The function can call the API of a price comparison service like PriceRunner, if available, passing the product identifier to retrieve current pricing information.
+
+Email Subscription and Parsing:
+Alternatively, if you set up an email subscription for price alerts, you can use Azure Logic Apps to trigger a process when a new email arrives in an Azure-hosted mailbox.
+Logic Apps can parse the email content to extract pricing information and other relevant details.
+
+Notification System:
+Use Azure Notification Hubs or similar services to send push notifications to the app when a price drop is detected or when new pricing information is available.
+The app would handle these notifications and alert the user accordingly.
+
+Data Storage:
+Store inventory and product information in an Azure SQL Database or Cosmos DB, depending on your needs and preferences.
+
+Security and Compliance:
+Ensure that any interaction with external APIs or data handling complies with security best practices. Use managed identities and secret storage solutions like Azure Key Vault for handling API keys and credentials.
+
+User Settings:
+Allow users to set preferences for how often they want their tracked items to be checked, what price changes are significant, and what type of notifications they want to receive.
+By leveraging Azure services, you can create a robust back-end system that automates the monitoring of product prices and sends timely notifications to users, enhancing the functionality of the "Friendtory" app significantly. This would provide real value to users, potentially saving them money by informing them of the best times to make purchases.
