@@ -1,0 +1,17 @@
+API Integration: Establishing a connection with external APIs (like PriceRunner) and ensuring that the data is retrieved, parsed, and displayed correctly could be complex, especially if you're dealing with rate limits, authentication, and data consistency.
+
+Cross-Platform Compatibility: If you're aiming for both iOS and Android versions, ensuring that the app works seamlessly on both platforms can be challenging, particularly if you're not using a cross-platform framework.
+
+User Interface and Experience: Designing a user-friendly interface takes not only initial development time but also subsequent iterations based on user testing.
+
+Data Synchronization: If your app requires user accounts and the ability to sync data across multiple devices or with a web version, implementing these features can be quite complex.
+
+Offline Functionality: Providing robust offline support, so the app is still functional without an internet connection, requires careful planning and additional coding.
+
+Notification System: Implementing a system for push notifications, especially if you want to include personalized alerts based on user preferences or behavior, can take considerable time to get right.
+
+Security and Privacy: Ensuring that your app complies with data protection regulations and implements best practices for security can be a significant undertaking.
+
+Testing and Quality Assurance: This phase is crucial and often underestimated. Thorough testing across different devices, operating systems, and user scenarios can be very time-consuming.
+
+App Store Approval: The process of getting your app approved on the App Store, while not development per se, can be lengthy and may require several iterations if Apple requests changes.
